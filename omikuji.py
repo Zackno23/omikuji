@@ -2,10 +2,10 @@ import random
 number = random.randint(1,3)
 if number ==1:
     luck = '大吉'
-elif number == 2:
+if number == 2:
     luck = '吉'
-elif number == 3:
+if number == 3:
     luck = '凶'
 
-print('今日の運勢は',luck)
+print('今日の運勢は...',luck)
 
